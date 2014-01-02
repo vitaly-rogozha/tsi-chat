@@ -1,0 +1,15 @@
+$(document).ready(function() {
+
+	$(".cancelModal").click(function() {
+		$.modal.close();
+	});
+
+	$("form").jqTransform();
+});
+
+function createAccount() {
+	$("#registrationDiv").modal({
+		opacity: "60",
+		overlayCss: {backgroundColor:"#000000"}
+	});
+}
